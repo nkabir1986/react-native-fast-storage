@@ -11,11 +11,11 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/FidMe/react-native-fast-storage"
+    "url": "https://github.com/nkabir1986/react-native-fast-storage.git"
   },
   "author": "Michaël Villeneuve for @FidMe",
   "license": "MIT",
   "peerDependencies": {
-    "react-native": "^0.56.3"
+    "react-native": "^0.57.8"
   }
 }
