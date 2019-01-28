@@ -30,11 +30,11 @@ android {
 }
 
 repositories {
-  mavenCentral()
-  maven {
-   url 'https://maven.google.com'
-  }
+  mavenLocal()
   maven { url "https://jitpack.io" }
+  maven { url "https://maven.google.com" }
+  google()
+  jcenter()
 }
 
 dependencies {
