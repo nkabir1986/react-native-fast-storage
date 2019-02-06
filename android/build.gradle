@@ -38,6 +38,7 @@ repositories {
 }
 
 dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation 'com.facebook.react:react-native:+'
     implementation 'com.tencent:mmkv-static:1.0.17'
 }
